@@ -39,7 +39,7 @@ public class ProdutoDTO {
 		preco = p.getPreco();
 		imgUrl = p.getImgUrl();
 		for (Categoria cat : p.getCategorias()) {
-			categorias.add(new CategoriaDTO());
+			categorias.add(new CategoriaDTO(cat));
 		}
 	}
 
