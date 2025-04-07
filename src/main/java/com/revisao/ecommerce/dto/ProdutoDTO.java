@@ -19,13 +19,11 @@ public class ProdutoDTO {
 	
 	
 	public ProdutoDTO() {
-		super();
 	}
 
 
 	
 	public ProdutoDTO(String nome, String descricao, Double preco, String imgUrl) {
-		super();
 		this.nome = nome;
 		this.descricao = descricao;
 		this.preco = preco;
